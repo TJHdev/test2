@@ -9,6 +9,7 @@ app.use(express.static(__dirname + "/public"));
 var arrayOne    = [0,1,2,3,4];
 var arrayTwo    = [1,2,3];
 var arrayThree  = [2,3,4];
+var arrayFour   = [3,4,5];
 
 function welcomeToVSCode(index){
     console.log(index + " " + helloWorld());
